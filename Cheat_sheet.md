@@ -100,6 +100,6 @@
 * "__:set hlsearch__" - To highlight all the search matches. 
 
 * "__/__" - Search for a partiular word.
-> _Usage:_ ___/Type___ _searches for the word Type._
+    > _Usage:_ ___/Type___ _searches for the word Type._
 
 
