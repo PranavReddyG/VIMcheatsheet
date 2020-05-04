@@ -58,6 +58,7 @@
 * "__p__" - Paste.
 
 * "__vip__" - Select paragraph.
+    > _Usage:_ _Use arrow keys to select the text as required._ 
 
 
 # __Navigation:__
