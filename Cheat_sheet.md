@@ -36,7 +36,17 @@
 
 * "__Ctrl + r__" or "__:redo__" - Redo.
 
+* "__x__" - Delete a single character.
+
+* "__d0__" - Delete text from the starting of the line till the cursor.
+
+* "__d$__" - Delete text after the cursor till the end of the line.
+
+* "__c__" - Change operator.
+
 * "__J__" - Deletes a line break.
+
+* "__Ctrl + n__" - Autocomplete.
 
 * "__:left__" - Align text to the left.
 
@@ -46,10 +56,20 @@
 
 * "__:split__" - Splits the current window into two.
 
+* "__:set expandtab shiftwidth=4 softtabstop=4__" - For tab = 4 spaces.
+
+
+# __Commenting/Uncommenting multiple lines:__
+
+* For commenting multiple lines at once, place the cursor over the first character of the line and press __Ctrl + v__. Use __j, k__ or arrow keys to select multiple lines. Then press __Shift + i__. Now press __#__ and hit __Esc__ key twice.
+
+* For uncommenting multiple lines at once, place the cursor over __#__ and press __Ctrl + v__. Use __j, k__ or arrow keys to select multiple lines. Then press __x__. 
 
 # __Clipboard:__
 
-* "__x__" - Delete a character.
+* "__d__" - Cut the selected text.
+
+* "__y__" - Copy the selected text.
 
 * "__dd__" - Delete a line (Cut).
 
@@ -58,7 +78,7 @@
 * "__p__" - Paste.
 
 * "__vip__" - Select paragraph.
-    > _Usage:_ _Use arrow keys to select the text as required._ 
+    > _Usage: Use arrow keys to select the text as required._ 
 
 
 # __Navigation:__
@@ -87,9 +107,14 @@
 
 * "__:n__" - Goes to n<sup>th</sup> line.
 
-* "__w__" - To move the cursor forward by one word.
+* "__w__" - Moves to the start of the next word.
+    > _Usage: Use_ __2w__ _to move the cursor forward by 2 words and place the cursor at the start of the word._
 
-* "__b__" - To move the cursor backward by one word.
+* "__b__" - Moves to the start of the previous word.
+    > _Usage: Use_ __2b__ _to move the cursor backward by 2 words and place the cursor at the start of the word._
+
+* "__e__" - Moves to the end of the next word.
+    > _Usage: Use_ __2e__ _to move the cursor forward by 2 words and place the cursor at the end of the word._
 
 
 # __Search:__
@@ -100,7 +125,8 @@
 
 * "__:set hlsearch__" - To highlight all the search matches. 
 
-* "__/__" - Search for a partiular word.
+* "__/__" - Search for a particular word.
     > _Usage:_ ___/Type___ _searches for the word Type._
 
-
+*        
+   
