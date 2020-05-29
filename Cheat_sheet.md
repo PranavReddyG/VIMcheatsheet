@@ -61,9 +61,9 @@
 
 # __Commenting/Uncommenting multiple lines:__
 
-* For commenting multiple lines at once, place the cursor over the first character of the line and press __Ctrl + v__. Use __j, k__ or arrow keys to select multiple lines. Then press __Shift + i__. Now press __#__ and hit __Esc__ key twice.
+* For commenting multiple lines at once, place the cursor over the first character of the line and press "__Ctrl + v__". Use "__j, k__" or arrow keys to select multiple lines. Then press "__Shift + i__". Now press "__#__" and hit "__Esc__" key twice.
 
-* For uncommenting multiple lines at once, place the cursor over __#__ and press __Ctrl + v__. Use __j, k__ or arrow keys to select multiple lines. Then press __x__. 
+* For uncommenting multiple lines at once, place the cursor over "__#__" and press "__Ctrl + v__". Use "__j, k__" or arrow keys to select multiple lines. Then press "__x__".
 
 # __Clipboard:__
 
